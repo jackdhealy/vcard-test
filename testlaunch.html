@@ -46,9 +46,7 @@
                 <p><strong>Website:</strong> <a href="https://jackdhealy.github.io/vcard-test/testlaunch.html">https://jackdhealy.github.io/vcard-test/testlaunch.html</a></p>
                 <p><strong>Organization:</strong> JH Development.</p>
                 <p><strong>Title:</strong> Software Developer</p>
-                <p><strong>Geographical Coordinates:</strong> 53.13546,-6.08518</p>
                 <p><strong>Note:</strong> This is a test note.</p>
-                <p><strong>Key:</strong> X509:base64-encoded-key</p>
                 <p><strong>Social Profiles:</strong>
                 <div class="social-icons">
                     <a href="http://twitter.com/JHealyy" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
@@ -57,7 +55,6 @@
                     <a href="http://instagram.com/jackhealyr" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
                 </div>
                 </p>
-                <p><strong>Show As:</strong> Person</p>
                 <p><button id="saveContactBtn" class="btn btn-sm btn-primary">Save Contact Card</button></p>
             </div>
         </div>
@@ -66,6 +63,7 @@
     <script>
 
 function CreateVCard(){
+    console.log("Launch contact card");
              // Define the vCard data
            const vCardData = `
         BEGIN:VCARD
